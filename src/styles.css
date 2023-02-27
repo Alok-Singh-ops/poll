@@ -1,0 +1,66 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+}
+/* form {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 0.1rem solid #000;
+  width: 50%;
+  margin: 1rem auto;
+  padding: 1rem;
+} */
+
+input {
+  display: flex;
+}
+
+input[type="button"],
+input[type="submit"] {
+  margin: 1rem auto;
+}
+
+form div {
+  margin: 1rem;
+  padding: 1rem;
+  border: 0px solid #000;
+}
+
+label,
+li {
+  display: block;
+  padding: 5px;
+  font-size: 1.4em;
+  color: #e3f1fa;
+}
+fieldset {
+  margin: 115px auto;
+  width: 400px;
+  padding: 8px 15px 15px 15px;
+  border: 1px solid white;
+  display: block; /* IE 7 Requires This */
+}
+legend {
+  padding: 4px 6px 4px 6px;
+  border: 1px solid white;
+  font-size: 2em;
+  color: #e3f1fa;
+  font-style: italic;
+}
+ul {
+  list-style: none;
+  margin-bottom: 15px;
+}
+.results-bar {
+  padding: 10px;
+  color: white;
+  background: url(images/result-bar-bg.png) left center;
+  white-space: nowrap;
+}
+span.total-votes {
+  font-size: 2.6em;
+}
